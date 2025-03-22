@@ -27,19 +27,19 @@ Copy script into `/opt/Autodesk/shared/python/add_audio`.
 
 # Updates
 
-### v1.4.0 01.20.24
+v1.4.0 01.20.24
 
 - Updates to PySide.
 - Fixed scoping issue with Flame 2023.2+ menus.
 
-### v1.3.0 90.18.23
+v1.3.0 90.18.23
 
 - Updated to pyflame lib v2.0
 
-### v1.2 05.31.22
+v1.2 05.31.22
 
 - Messages print to Flame message window - Flame 2023.1 and later
 
-### v1.1 03.15.22
+v1.1 03.15.22
 
 - Added new message window
