@@ -2,11 +2,11 @@
 
 Add stereo or 5.1 audio to selected sequences.
 
-- **Stereo Audio:**
+- *Stereo Audio:*
   - To add stereo audio to a sequence, select the sequence then select the audio clip to be added.
   - To add stereo audio to multiple sequences, select in `sequence/audio/sequence/audio...` order.
 
-- **5.1 Surround Audio:**
+- *5.1 Surround Audio:*
   - To add 5.1 surround audio to a sequence, select the sequence followed by all the audio channels (LF, RF, C, LFE, LS, RS, Stereo).
   - To add 5.1 surround audio to multiple sequences, select in `sequence/all audio channels/sequences/all audio channels...` order.
   
