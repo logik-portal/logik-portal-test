@@ -1,3 +1,12 @@
+Script Name: Add Audio
+Script Version: 1.4.0
+Flame Version: 2023
+Written by: Michael Vaglienty
+Creation Date: 02.04.22
+Update Date: 01.20.24
+
+Custom Action Type: Batch
+
 # Description
 
 Add stereo or 5.1 audio to selected sequences.
