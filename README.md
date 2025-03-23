@@ -40,7 +40,7 @@ To import the library in a script, use:
 
 #------------------------------------------------------
 
-Custom QT Widgets:
+##Custom QT Widgets:
 ------------------
 
 - PyFlameButton - Custom QT Flame Button
