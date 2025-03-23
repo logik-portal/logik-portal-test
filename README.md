@@ -17,6 +17,7 @@ To avoid conflicts with having multiple copies within the Flame python packages 
 
 This is the required folder structure when using this library:
 
+```
 script_folder/
 ├── main_script.py
 ├── lib/
@@ -25,6 +26,7 @@ script_folder/
 │   └── fonts/
 │       └── Montserrat-Regular.ttf
 │       └── Montserrat-Light.ttf
+```
 
 Required Files:
 - Montserrat-Regular.ttf
