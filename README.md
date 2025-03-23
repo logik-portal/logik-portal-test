@@ -33,7 +33,7 @@ Make sure this structure is preserved when deploying or moving the script.
 To import the library into the main script, use:
     from lib.pyflame_lib_<main_script_name> import *
 
-## Custom QT Widgets
+## PyFlame QT Widget Classes
 
 - `PyFlameButton` - Custom QT Flame Button
 - `PyFlameButtonGroup` - Allows for groupings of PyFlameButton types(PyFlameButton, PyFlamePushButton...).
@@ -54,13 +54,13 @@ To import the library into the main script, use:
 - `PyFlameHorizontalLine` - Custom QT Horizontal Line Widget.
 - `PyFlameVerticalLine` - Custom QT Vertical Line Widget.
 
-## Custom QT Layouts
+## PyFlame QT Layout Classes
 
 - `PyFlameGridLayout` - Custom QT Grid Layout.
 - `PyFlameHBoxLayout` - Custom QT Horizontal Box Layout.
 - `PyFlameVBoxLayout` - Custom QT Vertical Box Layout.
 
-## Custom QT Windows
+## PyFlame QT Window Classes
 
 - `PyFlamePresetManager` - Preset Manager for scripts.
 - `PyFlameMessageWindow` - Flame Message Window
@@ -75,7 +75,7 @@ To import the library into the main script, use:
 
 - `PyFlameConfig` - Class for creating, loading, and saving config files.
 
-## Utility Functions
+## PyFlame Functions
 
 - `pyflame.copy_to_clipboard` - Copy text to clipboard using QT.
 - `pyflame.create_file_system_folders` - Create a folder in the file system based on the provided folder structure.
