@@ -122,24 +122,24 @@ To use this library in a script, add the following import statement:
 This makes all classes, functions and constants from the library directly available in the script's namespace.
 
 For example:
-    ```
-    pyflame.print("Hello")  # Use PyFlame functions
-    window = PyFlameWindow()  # Create PyFlame widgets
-    ```
+```
+pyflame.print("Hello")  # Use PyFlame functions
+window = PyFlameWindow()  # Create PyFlame widgets
+```
 
 To utilize PyFlameFunctions, access methods through pyflame:
-    ```
-    pyflame.print("Hello")
-    pyflame.get_flame_version()
-    ...
-    ```
+```
+pyflame.print("Hello")
+pyflame.get_flame_version()
+...
+```
 
 To utilize widgets, instantiate them directly by their class names:
-    ```
-    window = PyFlameWindow()
-    button = PyFlamePushButton()
-    menu = PyFlamePushButtonMenu()
-    ```
+```
+window = PyFlameWindow()
+button = PyFlamePushButton()
+menu = PyFlamePushButtonMenu()
+```
 
 ## Updates
 
