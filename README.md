@@ -10,7 +10,6 @@ This file contains a library of various custom UI widgets that can be used to bu
 To avoid conflicts with having multiple copies within the Flame python folder, this file should be renamed to: pyflame_lib_<script_name>.py
 
 Required folder structure when using this library:
-    
     ```
     script_folder/
     ├── main_script.py
