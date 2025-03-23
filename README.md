@@ -10,17 +10,16 @@ This file contains a library of various custom UI widgets that can be used to bu
 To avoid conflicts with having multiple copies within the Flame python folder, this file should be renamed to: pyflame_lib_<script_name>.py
 
 Required folder structure when using this library:
-
-    ```
-    script_folder/
-    ├── main_script.py
-    ├── lib/
-    │   └── pyflame_lib_<main_script_name>.py
-    ├── assets/
-    │   └── fonts/
-    │       └── Montserrat-Regular.ttf
-    │       └── Montserrat-Light.ttf
-    ```
+```
+script_folder/
+├── main_script.py
+├── lib/
+│   └── pyflame_lib_<main_script_name>.py
+├── assets/
+│   └── fonts/
+│       └── Montserrat-Regular.ttf
+│       └── Montserrat-Light.ttf
+```
 
 Required Files:
 - Montserrat-Regular.ttf
@@ -143,7 +142,7 @@ To utilize widgets, instantiate them directly by their class names:
 
 ## Updates
 
-**v4.3.0 03.16.25
+**v4.3.0 03.16.25**
 
 - Added new file structure for libraries and assets.
     ```
