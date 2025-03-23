@@ -1,8 +1,13 @@
 # PyFlame Library
-Version: 4.3.0
+
+Version 4.3.0
 Written by: Michael Vaglienty
 Creation Date: 10.31.20
 Update Date: 03.16.25
+
+
+
+
 
 This file contains a library of various custom UI widgets that can be used to build QT windows similar to the look of Flame along with some other useful functions.
 
