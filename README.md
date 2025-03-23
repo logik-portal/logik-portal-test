@@ -141,9 +141,9 @@ button = PyFlamePushButton()
 menu = PyFlamePushButtonMenu()
 ```
 
-## Updates
+##Updates
 
-### v4.3.0 03.16.25
+**v4.3.0 03.16.25
 
 - Added new file structure for libraries and assets.
 
@@ -164,7 +164,7 @@ script_folder/
 from lib.pyflame_lib_<main_script_name> import *
 ```
 
-- New Widget:
+**New Widget**
       - PyFlameTable
           - A table widget that allows for displaying and interacting with tabular data such as CSV files.
 
