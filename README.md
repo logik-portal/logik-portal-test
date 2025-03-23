@@ -168,14 +168,14 @@ To utilize widgets, instantiate them directly by their class names:
 
 - New Window Classes:
     - PyFlameInputDialog
-      A simple dialog window that allows for input of a single line of text.
+        - A simple dialog window that allows for input of a single line of text.
       
     - PyFlameTabWindow
-      Subclass of PyFlameWindow that allows for easy creation of a window with multiple tabs.
+        - Subclass of PyFlameWindow that allows for easy creation of a window with multiple tabs.
 
 - PyFlameButton:
-    - Added new argument:
-        ```max_height``` - Set PyFlameButton to maximum height. Use if height is being set by layout. Overrides `height` if set to True.
+    - New argument: ```max_height```
+        - Set PyFlameButton to maximum height. Use if height is being set by layout. Overrides `height` if set to True.
 
 - PyFlameSlider:
     - Updated Calculator UI
