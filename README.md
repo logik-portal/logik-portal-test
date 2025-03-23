@@ -175,7 +175,7 @@ To utilize widgets, instantiate them directly by their class names:
 
 - PyFlameButton:
     - New argument
-        - ```max_height```
+        - `max_height`
             - Set PyFlameButton to maximum height. Use if height is being set by layout. Overrides `height` if set to True.
 
 - PyFlameSlider:
@@ -183,70 +183,72 @@ To utilize widgets, instantiate them directly by their class names:
 
 - PyFlameWindow/PyFlameDialogWindow:
     - New method
-        - ```set_title_text```
+        - `set_title_text`
             - Set the title of the window.
 
 - PyFlameColorPushButtonMenu:
-    - Added 'No Color' option to default color menu. This either applies no color or clears the current color.
+    - `No Color` option added to default color menu. This either applies no color or clears the current color.
     
     - New methods
-        - ```get_color```
+        - `get_color`
             - Return selected color name.
-        - ```get_color_value```
+        - `get_color_value`
             - Return normalized RGB color value of selected color.
-        - ```set_color```
+        - `set_color`
             - Set the color of the PyFlameColorPushButtonMenu.
 
 **v4.2.0 02.19.25**
 
-    Updated font used for widgets. Montserrat Regular is now the default font for all QT widgets. The Discreet font is used
-    as a fallback if Montserrat is not found. The font location is <SCRIPT_FOLDER>/assets/fonts.
+- Updated font used for widgets. Montserrat Regular is now the default font for all QT widgets. The Discreet font is used
+as a fallback if Montserrat is not found. The font location is <SCRIPT_FOLDER>/assets/fonts.
 
-    PyFlame Widget Argument Validation:
-        Argument errors now print to Flame message area as well as terminal.
+- PyFlame Widget Argument Validation:
+    - Argument errors now print to Flame message area as well as terminal.
 
-    PyFlameEntry:
-        Improved tooltip functionality. Added arguments to set the tooltip delay and duration.
-        Added Alt+Click to show full entry text as tooltip. Also copies full entry text to clipboard.
+- PyFlameEntry:
+    - Improved tooltip functionality. Added arguments to set the tooltip delay and duration.
+    - Added Alt+Click to show full entry text as tooltip. Also copies full entry text to clipboard.
 
-    PyFlameListWidget:
-        Added New Argument:
-            items: A list of items to add to the list widget can now be provided on creation of the widget.
+- PyFlameListWidget:
+    - New Argument:
+        - `items`
+            - A list of items to add to the list widget can now be provided on creation of the widget.
 
-    PyFlamePushButton:
-        Improved tooltip functionality. Added arguments to set the tooltip delay and duration.
+- PyFlamePushButton:
+    - Improved tooltip functionality. Added arguments to set the tooltip delay and duration.
 
-    PyFlameWindow/PyFlameDialogWindow:
-        Added title style argument. When using underline, the underline color matched the color used for the side bar line. This argument is passed to the Window Title Label.
-        Defaults to Style.BACKGROUND_THIN.
-        Added argument to set parent widget.
+- PyFlameWindow/PyFlameDialogWindow:
+- New Arguments
+    - Added title style argument. When using underline, the underline color matched the color used for the side bar line. This argument is passed to the Window Title Label.
+    Defaults to: `Style.BACKGROUND_THIN`
+    - Added argument to set parent widget.
 
-    New Widget:
-        PyFlameEntryFileBrowser
-            Replaces PyFlameLineEditFileBrowser which is now deprecated.
+- New Widget:
+    - PyFlameEntryFileBrowser
+        - Replaces PyFlameLineEditFileBrowser which is now deprecated.
 
-    New pyflame functions:
-        raise_type_error:
-            Raise a type error. Print error message with traceback to Flame message area and terminal.
+- New pyflame functions:
+    - `pyflame.raise_type_error`
+        - Raise a type error. Print error message with traceback to Flame message area and terminal.
 
-        raise_value_error:
-            Raise a value error. Print error message with traceback to Flame message area and terminal.
+    - `pyflame.raise_value_error`
+        - Raise a value error. Print error message with traceback to Flame message area and terminal.
 
-        create_temp_folder:
-            Create a temporary folder in the script folder.
+    - `create_temp_folder`
+        - Create a temporary folder in the script folder.
 
-        cleanup_temp_folder:
-            Clear the contents of the temporary folder.
+    - `cleanup_temp_folder`
+        - Clear the contents of the temporary folder.
 
-    Deprecated Widget:
-        PyFlameLineEditFileBrowser
+Deprecated Widget:
+    PyFlameLineEditFileBrowser
 
-    Added new Label Style:
-        Style.BACKGROUND_THIN - Adds a darker background to the Label with a thinner font weight. Text is left aligned by default. Used for window titles.
+Added new Label Style:
+    Style.BACKGROUND_THIN - Adds a darker background to the Label with a thinner font weight. Text is left aligned by default. Used for window titles.
 
-    Fixed: Line colors not properly being applied to PyFlameWindow and PyFlameDialogWindow.
+Fixed: Line colors not properly being applied to PyFlameWindow and PyFlameDialogWindow.
 
-    Removed: LineColor Enum. All colors are now set using the Color Enum.
+Removed: LineColor Enum. All colors are now set using the Color Enum.
 
 **v4.1.0 01.15.25**
 
