@@ -38,9 +38,9 @@ To import the library in a script, use:
 
     from lib.pyflame_lib_<main_script_name> import *
 
-#------------------------------------------------------
+------------------------------------------------------
 
-##Custom QT Widgets:
+## Custom QT Widgets:
 ------------------
 
 - PyFlameButton - Custom QT Flame Button
