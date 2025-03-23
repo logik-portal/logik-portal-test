@@ -1,23 +1,15 @@
 # PyFlame Library
 
 **Version:** 4.3.0<br>
-**Written by:** Michael Vaglienty
-
-**Creation Date:** 10.31.20
-
-**Update Date:** 03.16.25
-
-
-
-
+**Written by:** Michael Vaglienty<br>
+**Creation Date:** 10.31.20<br>
+**Update Date:** 03.16.25<
 
 This file contains a library of various custom UI widgets that can be used to build QT windows similar to the look of Flame along with some other useful functions.
 
-This file should be placed in same folder as main script.
+To avoid conflicts with having multiple copies within the Flame python folder, this file should be renamed to: pyflame_lib_<script_name>.py
 
-To avoid conflicts with having multiple copies within the Flame python packages folder, file should be renamed to: pyflame_lib_<script_name>.py
-
-This is the required folder structure when using this library:
+Required folder structure when using this library:
 
 ```
 script_folder/
@@ -36,13 +28,13 @@ Required Files:
 - pyflame_lib_<main_script_name>.py (This file with the name of the main script added to the end)
 
 All paths are relative to the script's root directory.
+
 Make sure this structure is preserved when deploying or moving the script.
 
-To import the library in a script, use:
-
+To import the library into the main script, use:
     from lib.pyflame_lib_<main_script_name> import *
 
-## Custom QT Widgets:
+## Custom QT Widgets
 
 - PyFlameButton - Custom QT Flame Button
 - PyFlameButtonGroup - Allows for groupings of PyFlameButton types(PyFlameButton, PyFlamePushButton...).
@@ -63,15 +55,13 @@ To import the library in a script, use:
 - PyFlameHorizontalLine - Custom QT Horizontal Line Widget.
 - PyFlameVerticalLine - Custom QT Vertical Line Widget.
 
-Custom QT Layouts:
-------------------
+## Custom QT Layouts
 
 - PyFlameGridLayout - Custom QT Grid Layout.
 - PyFlameHBoxLayout - Custom QT Horizontal Box Layout.
 - PyFlameVBoxLayout - Custom QT Vertical Box Layout.
 
-Custom QT Windows:
-------------------
+## Custom QT Windows
 
 - PyFlamePresetManager - Preset Manager for scripts.
 - PyFlameMessageWindow - Flame Message Window
@@ -82,8 +72,7 @@ Custom QT Windows:
 - PyFlameTabWindow - Flame QT Tab Window
 - PyFlameInputDialog - Flame QT Input Dialog Window
 
-Utility Classes:
-----------------
+## Utility Classes
 
 - PyFlameConfig - Class for creating, loading, and saving config files.
 
