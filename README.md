@@ -393,7 +393,7 @@ as a fallback if Montserrat is not found. Font location: `<SCRIPT_FOLDER>/assets
 
 - PyFlameMessageWindow
   - Updated message printing to terminal to be more clear.
-  - Message text no longer uses html tags such as <b> or <br>. Text is now printed as plain text.
+  - Message text no longer uses html tags. Text is now printed as plain text.
 
 - PyFlameProgressWindow
     - Updated message printing to terminal to be more clear.
