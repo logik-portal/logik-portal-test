@@ -1,3 +1,6 @@
+PyFlame Library
+
+
 Script Name: PyFlame Library
 Version: 4.3.0
 Written by: Michael Vaglienty
@@ -38,9 +41,9 @@ To import the library in a script, use:
 Custom QT Widgets:
 ------------------
 
-    PyFlameButton - Custom QT Flame Button
-    PyFlameButtonGroup - Allows for groupings of PyFlameButton types(PyFlameButton, PyFlamePushButton...).
-    PyFlameEntry - Custom QT Flame Entry Field Widget. Replaces PyFlameLineEdit.
+- PyFlameButton - Custom QT Flame Button
+- PyFlameButtonGroup - Allows for groupings of PyFlameButton types(PyFlameButton, PyFlamePushButton...).
+- PyFlameEntry - Custom QT Flame Entry Field Widget. Replaces PyFlameLineEdit.
     PyFlameEntryFileBrowser - Custom QT Entry Field Widget that opens Flame File Browser when clicked.
     PyFlameLabel - Custom QT Flame Label Widget.
     PyFlameLineEditFileBrowser - Deprecated. Use PyFlameEntryFileBrowser instead.
