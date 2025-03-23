@@ -3,7 +3,7 @@
 **Version:** 4.3.0<br>
 **Written by:** Michael Vaglienty<br>
 **Creation Date:** 10.31.20<br>
-**Update Date:** 03.16.25<
+**Update Date:** 03.16.25
 
 This file contains a library of various custom UI widgets that can be used to build QT windows similar to the look of Flame along with some other useful functions.
 
