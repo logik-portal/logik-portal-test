@@ -113,55 +113,62 @@ Utility Functions:
 - pyflame.update_export_preset - Update export preset version.
 - pyflame.verify_script_install - Verify that script is installed in the correct location with any additional files that are required.
 
-Usage:
-------
+## Usage
 
 To use this library in a script, add the following import statement:
 
-    from pyflame_lib_<script name> import *
+    from lib.pyflame_lib_<script name> import *
 
 This makes all classes, functions and constants from the library directly available in the script's namespace.
 
 For example:
+    ```
     pyflame.print("Hello")  # Use PyFlame functions
     window = PyFlameWindow()  # Create PyFlame widgets
+    ```
 
 To utilize PyFlameFunctions, access methods through pyflame:
+    ```
     pyflame.print("Hello")
     pyflame.get_flame_version()
     ...
+    ```
 
 To utilize widgets, instantiate them directly by their class names:
+    ```
     window = PyFlameWindow()
     button = PyFlamePushButton()
     menu = PyFlamePushButtonMenu()
+    ```
 
-Updates:
---------
+## Updates
 
 v4.3.0 03.16.25
 
-    Added new file structure for libraries and assets.
+- Added new file structure for libraries and assets.
 
-        script_folder/
-        ├── main_script.py
-        ├── lib/
-        │   └── pyflame_lib_<main_script_name>.py
-        ├── assets/
-        │   └── fonts/
-        │       └── Montserrat-Regular.ttf
-        │       └── Montserrat-Light.ttf
+```
+script_folder/
+├── main_script.py
+├── lib/
+│   └── pyflame_lib_<main_script_name>.py
+├── assets/
+│   └── fonts/
+│       └── Montserrat-Regular.ttf
+│       └── Montserrat-Light.ttf
+```
 
-    To import the library in a script, use:
-        from lib.pyflame_lib_<main_script_name> import *
+- To import the library in a script, use:
 
-    New Widget:
-        PyFlameTable
-            A table widget that allows for displaying and interacting with tabular data such as CSV files.
+    from lib.pyflame_lib_<main_script_name> import *
 
-    New Window Classes:
-        PyFlameInputDialog
-            A simple dialog window that allows for input of a single line of text.
+- New Widget:
+      - PyFlameTable
+          - A table widget that allows for displaying and interacting with tabular data such as CSV files.
+
+- New Window Classes:
+      - PyFlameInputDialog
+          - A simple dialog window that allows for input of a single line of text.
 
         PyFlameTabWindow
             Subclass of PyFlameWindow that allows for easy creation of a window with multiple tabs.
