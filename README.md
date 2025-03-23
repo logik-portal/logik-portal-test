@@ -182,7 +182,7 @@ To utilize widgets, instantiate them directly by their class names:
 
 - PyFlameWindow/PyFlameDialogWindow:
     - New method: ```set_title_text```
-    - Set the title of the window.
+        - Set the title of the window.
 
     PyFlameColorPushButtonMenu:
         Added 'No Color' option to default color menu. This either applies no color or clears the current color.
