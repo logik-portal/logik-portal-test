@@ -1,7 +1,6 @@
 # PyFlame Library
 
-**Version:** 4.3.0
-
+**Version:** 4.3.0<br>
 **Written by:** Michael Vaglienty
 
 **Creation Date:** 10.31.20
