@@ -143,7 +143,7 @@ menu = PyFlamePushButtonMenu()
 
 ## Updates
 
-v4.3.0 03.16.25
+### v4.3.0 03.16.25
 
 - Added new file structure for libraries and assets.
 
@@ -160,7 +160,9 @@ script_folder/
 
 - To import the library in a script, use:
 
-    from lib.pyflame_lib_<main_script_name> import *
+```
+from lib.pyflame_lib_<main_script_name> import *
+```
 
 - New Widget:
       - PyFlameTable
