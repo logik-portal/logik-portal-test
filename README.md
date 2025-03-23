@@ -162,27 +162,27 @@ To utilize widgets, instantiate them directly by their class names:
     from lib.pyflame_lib_<main_script_name> import *
     ```
 
-**New Widget**
-      - PyFlameTable
-          - A table widget that allows for displaying and interacting with tabular data such as CSV files.
+- New Widget
+    - PyFlameTable
+        - A table widget that allows for displaying and interacting with tabular data such as CSV files.
 
 - New Window Classes:
-      - PyFlameInputDialog
-          - A simple dialog window that allows for input of a single line of text.
+    - PyFlameInputDialog
+        - A simple dialog window that allows for input of a single line of text.
 
         PyFlameTabWindow
             Subclass of PyFlameWindow that allows for easy creation of a window with multiple tabs.
 
-    PyFlameButton:
-        Added new argument:
-            max_height - Set PyFlameButton to maximum height. Use if height is being set by layout. Overrides `height` if set to True.
+- PyFlameButton:
+    - Added new argument:
+        ```max_height``` - Set PyFlameButton to maximum height. Use if height is being set by layout. Overrides `height` if set to True.
 
-    PyFlameSlider:
-        Updated Calculator UI
+- PyFlameSlider:
+    - Updated Calculator UI
 
-    PyFlameWindow/PyFlameDialogWindow:
-        Added new method:
-            set_title_text - Set the title of the window.
+- PyFlameWindow/PyFlameDialogWindow:
+    - Added new method:
+        ```set_title_text``` - Set the title of the window.
 
     PyFlameColorPushButtonMenu:
         Added 'No Color' option to default color menu. This either applies no color or clears the current color.
@@ -192,7 +192,7 @@ To utilize widgets, instantiate them directly by their class names:
             get_color_value - Return normalized RGB color value of selected color.
             set_color - Set the color of the PyFlameColorPushButtonMenu.
 
-v4.2.0 02.19.25
+**v4.2.0 02.19.25**
 
     Updated font used for widgets. Montserrat Regular is now the default font for all QT widgets. The Discreet font is used
     as a fallback if Montserrat is not found. The font location is <SCRIPT_FOLDER>/assets/fonts.
@@ -243,13 +243,13 @@ v4.2.0 02.19.25
 
     Removed: LineColor Enum. All colors are now set using the Color Enum.
 
-v4.1.0 01.15.25
+**v4.1.0 01.15.25**
 
     Added new widgets:
         PyFlameHorizontalLine - A horizontal line widget.
         PyFlameVerticalLine - A vertical line widget.
 
-v4.0.0 01.05.25
+**v4.0.0 01.05.25**
 
     Fixed type hinting for copy_to_clipboard function. This was causing scripts not to work with Flame 2024.
 
@@ -368,12 +368,12 @@ v4.0.0 01.05.25
             PyFlameTreeWidget
             PyFlameTextEdit
 
-v3.2.0 09.09.24
+**v3.2.0 09.09.24**
 
     Added new pyflame functions:
         json_print - Cleanly print JSON data to terminal with proper indentation for easy readability.
 
-v3.1.0 09.01.24
+**v3.1.0 09.01.24**
 
     PyFlameMessageWindow - Added scrollbars to message window for long messages.
 
@@ -381,7 +381,7 @@ v3.1.0 09.01.24
         print_list - Print a list of items to the terminal and Flame message area.
         print - Print a message to the terminal and Flame message area.
 
-v3.0.0 08.16.24
+**v3.0.0 08.16.24**
 
     Added new PyFlameFunction:
         copy_to_clipboard - Copy text to clipboard using QT.
@@ -404,7 +404,7 @@ v3.0.0 08.16.24
     PyFlameProgressBar Window:
         Done button is now enabled once progress is complete. No need to manually set it to enabled.
 
-v2.5.0 06.22.24
+**v2.5.0 06.22.24**
 
     Improvements to docstrings to enhance hover over tooltips in IDEs.
 
@@ -413,7 +413,7 @@ v2.5.0 06.22.24
             tree_list - Get a list of all item names in the tree. (Converted this to an attribute from a method)
             tree_dict - Get a dictionary of all items in the tree.
 
-v2.4.0 06.12.24
+**v2.4.0 06.12.24**
 
     Updated PyFlameTreeWidget:
         Added new methods:
@@ -426,7 +426,7 @@ v2.4.0 06.12.24
     Added new pyflame function:
         iterate_name - Iterate through a list of names and return a unique name based on the list.
 
-v2.3.0 05.07.24
+**v2.3.0 05.07.24**
 
     Added new class:
         PyFlameButtonGroup - Allows for grouping of PyFlameButtons, PyFlamePushButtons, PyFlamePushButtonMenus, and PyFlameColorPushButtonMenus.
@@ -435,7 +435,7 @@ v2.3.0 05.07.24
     Added new pyflame function:
         generate_unique_node_names - Generate unique node names based on a list of existing node names.
 
-v2.2.0 05.05.24
+**v2.2.0 05.05.24**
 
     Added new class:
         PyFlamePresetManager - This class allows for saving/editing/deleting of presets for scritps. Presets can be assigned to specific projects or be global.
@@ -446,37 +446,37 @@ v2.2.0 05.05.24
     Updated all classes and functions that have parameters for script_name and script_path. They now use SCRIPT_NAME constant for script name and SCRIPT_PATH
     constant for script path as default values if not passed as arguments.
 
-v2.1.16 04.29.24
+**v2.1.16 04.29.24**
 
     Added BatchGroupName token to resolve_path_tokens function. A PyBatch object must be passed as the flame_pyobject argument.
 
     PyFlameDialogWindow - Updated window layout to fix alignment issues with lines.
 
-v2.1.15 04.23.24
+**2.1.15 04.23.24**
 
     PyFlameLineEdit: Added argument for setting tooltip text.
 
-v2.1.14 04.16.24
+**v2.1.14 04.16.24**
 
     PyFlameConfig: Added new method: get_config_values. This method returns the values of a config file at the supplied path as a dictionary.
 
-v2.1.13 04.01.24
+**v2.1.13 04.01.24**
 
     PyFlameConfig: Config file is now saved if it doesn't exist when loading the default config values.
 
-v2.1.12 03.08.24
+**v2.1.12 03.08.24**
 
     PyFlamePushButtonMenu: Added new argument: enabled - enabled or disable button state. Default is True.
 
     PyFlamePushButton: Added new argument: enabled - enabled or disable button state. Default is True.
 
-v2.1.11 03.03.24
+**v2.1.11 03.03.24**
 
     PyFlameTokenPushButtonMenu: Fixed menu sizing to be consistent with other menus.
 
     PyFlamePushButtonMenu: Menu text is now left aligned.
 
-v2.1.10 02.29.24
+**v2.1.10 02.29.24**
 
     Added new layout classes:
         PyFlameGridLayout
@@ -494,24 +494,24 @@ v2.1.10 02.29.24
 
     Improved argument validations for all widgets.
 
-v2.1.9 02.17.24
+**v2.1.9 02.17.24**
 
     Fixed all widget tooltip text color. Color is now set to white instead of red.
 
     Fixed all widget tooltip border. Is now set to 1px solid black.
 
-v2.1.8 02.11.24
+**v2.1.8 02.11.24**
 
     Improvements to UI/code for PyFlameMessage, PyFlameProgress, and PyFlamePassword windows.
 
-v2.1.7 02.09.24
+**v2.1.7 02.09.24**
 
     Fixed: Config values not printing in terminal when loading config file.
 
     Added parameter to pyflame.get_flame_python_packages_path to enable/disable printing path to terminal.
     Default is True.
 
-v2.1.6 01.31.24
+**v2.1.6 01.31.24**
 
     Fixed PySide6 errors/font in slider calculator.
 
@@ -522,7 +522,7 @@ v2.1.6 01.31.24
     PyFlameSlider: Added rate parameter. This controls the sensitivity of the slider. The value should be between 1 and 10.
     1 is the most sensitive and 10 is the least sensitive. Default is 10.
 
-v2.1.5 01.25.24
+**v2.1.5 01.25.24**
 
     Updated PyFlameTokenPushButton:
         Added default argument values:
@@ -532,28 +532,28 @@ v2.1.5 01.25.24
         Added new method:
             add_menu_options(new_options): Add new menu options to the existing token menu and clear old options.
 
-v2.1.4 01.21.24
+**v2.1.4 01.21.24**
 
     Updated PySide.
     Improved UI scaling for different screen resolutions.
     Fixed issue with PyFlameConfig not properly returning boolean values.
 
-v2.1.3 11.21.23
+**v2.1.3 11.21.23**
 
     Updated pyflame.get_export_preset_version() to check default jpeg export preset for preset version.
     This function no longer needs to be updated manually.
 
-v2.1.2 11.17.23
+**v2.1.2 11.17.23**
 
     Updated Token Push Button Menu widget. Added ability to clean destination(line edit widget) before adding the token.
 
-v2.1.1 11.06.23
+**v2.1.1 11.06.23**
 
     Added pyflame functions for dealing with export preset versions:
         pyflame.get_export_preset_version()
         pyflame.update_export_preset()
 
-v2.1.0 08.14.23
+**v2.1.0 08.14.23**
 
     All widgets have been updated to be more consistent.
 
