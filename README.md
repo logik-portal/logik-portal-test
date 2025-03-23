@@ -168,10 +168,10 @@ To utilize widgets, instantiate them directly by their class names:
 
 - New Window Classes:
     - PyFlameInputDialog
-        - A simple dialog window that allows for input of a single line of text.
-
-        PyFlameTabWindow
-            Subclass of PyFlameWindow that allows for easy creation of a window with multiple tabs.
+      A simple dialog window that allows for input of a single line of text.
+      
+    - PyFlameTabWindow
+      Subclass of PyFlameWindow that allows for easy creation of a window with multiple tabs.
 
 - PyFlameButton:
     - Added new argument:
