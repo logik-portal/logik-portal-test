@@ -10,6 +10,7 @@ This file contains a library of various custom UI widgets that can be used to bu
 To avoid conflicts with having multiple copies within the Flame python folder, this file should be renamed to: pyflame_lib_<script_name>.py
 
 Required folder structure when using this library:
+
     ```
     script_folder/
     ├── main_script.py
@@ -75,8 +76,7 @@ To import the library into the main script, use:
 
 - PyFlameConfig - Class for creating, loading, and saving config files.
 
-Utility Functions:
-------------------
+## Utility Functions
 
 - pyflame.copy_to_clipboard - Copy text to clipboard using QT.
 - pyflame.create_file_system_folders - Create a folder in the file system based on the provided folder structure.
@@ -115,8 +115,9 @@ Utility Functions:
 ## Usage
 
 To use this library in a script, add the following import statement:
-
+    ```
     from lib.pyflame_lib_<script name> import *
+    ```
 
 This makes all classes, functions and constants from the library directly available in the script's namespace.
 
@@ -145,7 +146,6 @@ To utilize widgets, instantiate them directly by their class names:
 **v4.3.0 03.16.25
 
 - Added new file structure for libraries and assets.
-
     ```
     script_folder/
     ├── main_script.py
