@@ -184,13 +184,16 @@ To utilize widgets, instantiate them directly by their class names:
     - New method: ```set_title_text```
         - Set the title of the window.
 
-    PyFlameColorPushButtonMenu:
-        Added 'No Color' option to default color menu. This either applies no color or clears the current color.
-
-        Added new methods:
-            get_color - Return selected color name.
-            get_color_value - Return normalized RGB color value of selected color.
-            set_color - Set the color of the PyFlameColorPushButtonMenu.
+- PyFlameColorPushButtonMenu:
+    - Added 'No Color' option to default color menu. This either applies no color or clears the current color.
+    
+    - New methods:
+        - ```get_color```
+            - Return selected color name.
+        - ```get_color_value```
+            - Return normalized RGB color value of selected color.
+        - ```set_color```
+            - Set the color of the PyFlameColorPushButtonMenu.
 
 **v4.2.0 02.19.25**
 
