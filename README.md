@@ -174,20 +174,22 @@ To utilize widgets, instantiate them directly by their class names:
         - Subclass of PyFlameWindow that allows for easy creation of a window with multiple tabs.
 
 - PyFlameButton:
-    - New argument: ```max_height```
-        - Set PyFlameButton to maximum height. Use if height is being set by layout. Overrides `height` if set to True.
+    - New argument
+        - ```max_height```
+            - Set PyFlameButton to maximum height. Use if height is being set by layout. Overrides `height` if set to True.
 
 - PyFlameSlider:
     - Updated Calculator UI
 
 - PyFlameWindow/PyFlameDialogWindow:
-    - New method: ```set_title_text```
-        - Set the title of the window.
+    - New method
+        - ```set_title_text```
+            - Set the title of the window.
 
 - PyFlameColorPushButtonMenu:
     - Added 'No Color' option to default color menu. This either applies no color or clears the current color.
     
-    - New methods:
+    - New methods
         - ```get_color```
             - Return selected color name.
         - ```get_color_value```
